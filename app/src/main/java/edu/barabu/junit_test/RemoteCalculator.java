@@ -2,10 +2,10 @@ package edu.barabu.junit_test;
 
 public class RemoteCalculator {
 
-    final int OP_ADD = 1;
-    final int OP_SUB = 2;
-    final int OP_MUL = 3;
-    final int OP_DIV = 4;
+    static final int OP_ADD = 1;
+    static final int OP_SUB = 2;
+    static final int OP_MUL = 3;
+    static final int OP_DIV = 4;
 
     private int add(int a, int b) {
         return (a + b);
